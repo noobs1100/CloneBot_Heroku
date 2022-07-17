@@ -10,5 +10,5 @@ services:
       - group_ids=${group_ids}
       
     ports:
-      - ${PORT}:${PORT}
+      
     restart: unless-stopped
